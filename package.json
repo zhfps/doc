@@ -1,0 +1,16 @@
+{
+  "name": "vitepress",
+  "version": "1.0.0",
+  "description": "文档",
+  "scripts": {
+    "dev": "vitepress dev docs --open",
+    "build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "main": "index.js",
+  "author": "it_dog_zhang@163.com",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^0.20.1"
+  }
+}
