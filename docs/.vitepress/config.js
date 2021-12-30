@@ -112,5 +112,18 @@ module.exports = {
             ],
             sidebarDepth:1
         },
+        {
+            text:'编程语言',
+            children: [
+                {
+                    text:'java-script',
+                    children: [
+                        { text: 'java-script学习记录', link: '/js-doc/' },
+                    ],
+                    sidebarDepth:3
+                }
+            ],
+            sidebarDepth:1
+        }
     ]
 }
