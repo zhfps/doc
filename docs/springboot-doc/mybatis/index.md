@@ -2,7 +2,7 @@
 
 ## 使用MyBatis处理枚举类型
 
-### 创建枚举
+- 创建枚举
 
 ```java
 public enum ProjectGroupType {
@@ -46,7 +46,7 @@ public enum ProjectGroupType {
 }
 ```
 
-### 创建处理类
+- 创建处理类
 
 ``` java
 public class ProjectGroupHandler implements TypeHandler<ProjectGroupType> {
@@ -89,7 +89,7 @@ public class ProjectGroupHandler implements TypeHandler<ProjectGroupType> {
 
 ```
 
-### 配置xml
+- 配置xml
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -103,7 +103,7 @@ public class ProjectGroupHandler implements TypeHandler<ProjectGroupType> {
 </configuration>
 ```
 
-### 配置文件
+- 配置文件
 
 ``` yml
 
